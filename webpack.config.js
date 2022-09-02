@@ -33,6 +33,7 @@ module.exports = {
   devServer: {
     open: false,
     static: path.resolve(__dirname, "./dist"),
-    port: 4000,
+    port: 4001,
+    allowedHosts: ["thomas-dauriac.fr"],
   },
 };
